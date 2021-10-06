@@ -11,7 +11,7 @@ public class Main {
         int fid_num1 = 1;
         int fid_num2 = 1;
         int summa = 0;
-        while (b < a - 2){
+        while (b < n - 2){
             summa = fid_num1 + fid_num2;
             fid_num1 = fid_num2;
             fid_num2 = summa;
