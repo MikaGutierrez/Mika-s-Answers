@@ -1,0 +1,25 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String str = in.next();
+        int sumbnum = 0;
+        String mines = "-";
+        if (str.charAt(0) == mines.charAt(0)) sumbnum = 1;
+        str = str.replace("1", "");
+        str = str.replace("2", "");
+        str = str.replace("3", "");
+        str = str.replace("4", "");
+        str = str.replace("5", "");
+        str = str.replace("6", "");
+        str = str.replace("7", "");
+        str = str.replace("8", "");
+        str = str.replace("9", "");
+        str = str.replace("0", "");
+        if (str.length() == sumbnum) System.out.println("yes");
+        else System.out.println("no");
+    }
+}
